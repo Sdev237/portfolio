@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Profile from './components/Profile';
+import { Marg } from './Marg';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className={`app ${theme}`}>
       <Navbar toggleTheme={toggleTheme} />
+      <Marg/>
       <Routes>
             <Route path="/"  element={<Home />} />
             <Route path="/profile" element={<Profile />} />

@@ -2,12 +2,13 @@
 
 .navbar {
   background-color: #333;
-  border-radius: 10px;
+  border-radius: 6rem;
   position: fixed;
   left: 50%;
   transform: translateX(-50%); 
   width: 25%; 
   padding: 10px 20px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,13 +28,17 @@
     }
   }
 
+  .toggle{
+    color: #fff;
+  }
+
   @media screen and (max-width: 1325px) {
-    width: 45%;
+    width: 47%;
   }
 
   &.mobile {
     
-  margin-bottom: 15%;
+    margin: 0;
     width: 100%;
     justify-content: center; 
     margin-top: 0;

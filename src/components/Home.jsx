@@ -3,9 +3,10 @@ import './Home.scss';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" style={{height: '50vh'}}>
       <h2>Welcome to My Website</h2>
       <p>This is the homepage content.</p>
+      
     </div>
   );
 };
