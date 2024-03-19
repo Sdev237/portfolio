@@ -32,7 +32,7 @@ body {
   
 }
 
-.navbar {
+.navi {
   background-color: #eee;
   padding: 20px;
 
@@ -51,8 +51,9 @@ body {
       }
     }
 
-    button {
+    a {
       cursor: pointer;
+      
     }
   }
 }
