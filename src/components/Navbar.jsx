@@ -38,13 +38,13 @@ const Navbar = ({ toggleTheme }) => {
             <Link to="/"><FontAwesomeIcon icon={faHome} /></Link>
             <Link to="/profile"><FontAwesomeIcon icon={faUser} /></Link>
 
-            <span onClick={() => {toggleFlag();toggleTheme();}} className='toggle' style={{ width: '24px', height: '20px', cursor: 'pointer' }}>
-              {isDarkMode ? (<span><img src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f1eb_1f1f7/512.png=s30" alt="Drapeau de la France" style={{ width: '24px', height: '20px'}} /> Fr</span>) : 
-              ( <span><img src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f1ec_1f1e7/512.png=s30" alt="Drapeau de l'Angleterre'" style={{ width: '24px', height: '20px' }} /> En</span> )}
+            <span onClick={() => {toggleFlag();toggleTheme();}} className='toggle' style={{ width: '24px', height: '20px', cursor: 'pointer', background: 'none' }}>
+              {isDarkMode ? ( <span><img src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f1ec_1f1e7/512.png=s30" alt="Drapeau de l'Angleterre'" style={{ width: '24px', height: '20px' }} /> En</span> ):
+              (<span ><img src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f1eb_1f1f7/512.png=s30" alt="Drapeau de la France" style={{ width: '24px', height: '20px'}} /> Fr</span>)}
             </span>
 
             <a onClick={() => {toggle();toggleTheme();}} className='toggle btn px-3'>
-              {isDarkMode ? (<FontAwesomeIcon icon={faSun} className='sun'/> ) : ( <FontAwesomeIcon icon={faMoon} className='moon'/> )} Theme
+              {!isDarkMode ? (<FontAwesomeIcon icon={faSun} className='sun'/> ) : ( <FontAwesomeIcon icon={faMoon} className='moon'/> )} Theme
             </a>
           </div>
         </div>

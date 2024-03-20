@@ -1,7 +1,7 @@
 // Navbar.scss
 
 .navi {
-  background-color: #333;
+  background-color: #0d1117;
   border-radius: 6rem;
   position: fixed;
   left: 50%;
@@ -38,6 +38,9 @@
     border-radius: 3rem;
     border-color: #2ea2f0;
     background-color: #333;
+    &:hover{
+      color: #2ea2f0;
+    }
   }
 
   @media screen and (max-width: 1325px) {

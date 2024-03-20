@@ -7,7 +7,7 @@ import Profile from './components/Profile';
 import { Marg } from './Marg';
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
@@ -21,6 +21,7 @@ function App() {
             <Route path="/"  element={<Home />} />
             <Route path="/profile" element={<Profile />} />
       </Routes>
+      
     </div>
   );
 }
