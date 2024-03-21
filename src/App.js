@@ -12,10 +12,15 @@ function App() {
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
+  const [langue, setLangue] = useState('Fr');
+
+  const toggleLangue = () => {
+    setLangue(langue === 'Fr' ? 'An' : 'Fr');
+  };
 
   return (
-    <div className={`app ${theme}`}>
-      <Navbar toggleTheme={toggleTheme} />
+    <div className={`app ${theme} ${langue}`}>
+      <Navbar toggleTheme={toggleTheme}  />
       <Marg/>
       <Routes>
             <Route path="/"  element={<Home />} />

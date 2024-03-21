@@ -34,11 +34,12 @@
     border: 2px solid #333;
   }
   .icon{
-    width: 60px;
-    left: 60px;
+    width: 80px;
+    left: 80px;
     min-height: 56px;
     min-width: 55px;
     font-size: 0px;
+    fill: red
    }
 
    .githubIcon{
@@ -47,13 +48,18 @@
 
    .linkedinIcon{
       background: url("./linkedin-1.png") no-repeat center;
+      
    }
-
+   
+   .about{
+    max-height: 58vh;
+   }
   .bio{
     margin: 0rem 0.3rem 1rem 0.3rem;
     border: 2px solid #333;
     border-radius: 0.4rem;
-    max-height: 50vh;
+    min-height: 56vh;
+    max-height: 57vh;
     background: url("./profile-first-repo-dark.svg") no-repeat center;
     
   }
