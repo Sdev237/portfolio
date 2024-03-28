@@ -2,9 +2,9 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
-import './Home.scss';
+import './Accueil.scss';
 
-const Home = () => {
+const Accueil = () => {
 
   return (
     <div className="home" >
@@ -50,9 +50,7 @@ const Home = () => {
               <h1 className='mb-4' style={{opacity: '1'}}>BIENVENUE SUR MON PORTFOLIO</h1>
 
               <p className='pb-' style={{opacity: '1'}}>
-                Je suis un développeur passionné par les technologies web. J'ai travaillé sur divers projets, notamment des applications React et des API Node.js.
-                Je suis un développeur passionné par les technologies web. J'ai travaillé sur divers projets, notamment des applications React et des API Node.js.
-                Je suis un développeur passionné par les technologies web. J'ai travaillé sur divers projets, notamment des applications React et des API Node.js.
+              Passionné du développement logiciel et des nouvelles technologies, j’ai la chance d'avoir pu développer mes compétences au sein de nombreuses entreprise a l’exemple de Orange Cameroun, HUGO Company LTD, CENADI et MODRY Sarl
               </p>
               <h3>STACK</h3>
               <hr />
@@ -111,4 +109,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Accueil;

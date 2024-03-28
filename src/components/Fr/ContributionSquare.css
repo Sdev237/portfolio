@@ -1,0 +1,21 @@
+/* ContributionSquare.css */
+.contribution-square {
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+}
+
+/* Nuance de gris clair */
+.light-gray {
+  background-color: #ebedf0;
+}
+
+/* Nuance de gris moyenne */
+.medium-gray {
+  background-color: #c6cbd1;
+}
+
+/* Nuance de gris foncé */
+.dark-gray {
+  background-color: #0a75f1;
+}

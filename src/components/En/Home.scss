@@ -43,11 +43,11 @@
    }
 
    .githubIcon{
-      background: url("./github-2.png") no-repeat center;
+      background: url("../github-2.png") no-repeat center;
    }
 
    .linkedinIcon{
-      background: url("./linkedin-1.png") no-repeat center;
+      background: url("../linkedin-1.png") no-repeat center;
       
    }
    
@@ -60,7 +60,7 @@
     border-radius: 0.4rem;
     min-height: 58vh;
     max-height: 70vh;
-    background: url("./profile-first-repo-dark.svg") no-repeat center;
+    background: url("../profile-first-repo-dark.svg") no-repeat center;
     
   }
   h2 {
@@ -85,7 +85,7 @@
     min-width: 200px;
     font-family: sans-serif;
     font-size: 25px;
-    background: url("./sap.png") no-repeat center;
+    background: url("../sap.png") no-repeat center;
     
   }
   &.mobile {
